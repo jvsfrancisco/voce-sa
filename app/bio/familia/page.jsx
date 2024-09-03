@@ -18,27 +18,25 @@ export default function Bio() {
           <div className={styles.snippet}>
             <div className={styles.snippetContent}>
               <pre className={styles.snippetCode}>
-                <code>
+                <p className={styles.snippetCode}>
                   {`function CreateJV(irmaos, cachorro, curso, profissao, hobbies) {
-  return { nome: "João", irmaos, cachorro, curso, profissao, hobbies };
-}
-pais = ["João Leôncio Francisco", "Risonadia da Silva"];
-irmaos = ["José", "Juliane", "Julieny"];
-cachorro = "Marlley";
-curso = "Ciência da Computação";
-profissao = "Dev";
-hobbies = ["Tecnologia", "Inovação", "Instrumentos Musicais", "Desenhos Animados"];
-
-CreateJV(irmaos, cachorro, curso, profissao, hobbies);`}
-                </code>
+                    return { nome: "João", irmaos, cachorro, curso, profissao, hobbies };
+                  }
+                  \nirmaos = [&quot;José&quot;, &quot;Juliane&quot;, &quot;Julieny&quot;];
+                  \ncachorro = &quot;Marlley&quot;;
+                  \ncurso = &quot;Ciência da Computação&quot;;
+                  \nprofissao = &quot;Desenvolvedor Web Fullstack&quot;;
+                  \nhobbies = [&quot;Tecnologia&quot;, &quot;Inovação&quot;, &quot;Instrumentos Musicais&quot;];
+                  \nCreateJV(irmaos, cachorro, curso, profissao, hobbies);`}
+                </p>
               </pre>
             </div>
             <div className={styles.bkgmarlley}>
-            <Image className={styles.marlley} src="/coragem.png" alt="Marlley" width={200} height={200} />
+              <Image className={styles.marlley} src="/coragem.png" alt="Marlley" width={200} height={200} />
             </div>
           </div>
         </div>
-        
+
       </main>
 
       <Footer styles={styles} />
