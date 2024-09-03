@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable react/no-unescaped-entities */
+
 import Link from 'next/link';
 import styles from '../../ui/styles/Home.module.css';
 import Header from '../../ui/Header';
